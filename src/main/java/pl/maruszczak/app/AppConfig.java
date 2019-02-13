@@ -70,17 +70,17 @@ public class AppConfig extends WebMvcConfigurerAdapter {
         return new LocalValidatorFactoryBean();
     }
 
-    @Override
-    public void addFormatters(FormatterRegistry registry) {
-
-        registry.addConverter(getUserConverter());
-
-    }
-
-    @Bean
-    public UserConverter getUserConverter() {
-        return new UserConverter();
-    }
+//    @Override
+//    public void addFormatters(FormatterRegistry registry) {
+//
+//        registry.addConverter(getUserConverter());
+//
+//    }
+//
+//    @Bean
+//    public UserConverter getUserConverter() {
+//        return new UserConverter();
+//    }
 
 }
 
